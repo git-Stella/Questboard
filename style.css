@@ -30,6 +30,10 @@ h1 {
     margin-bottom: 2.8rem;
 }
 
+.blue {
+    background-color: blue;
+}
+
 h2 {
     font-size: 2rem;
     margin-bottom: 1.4rem;
