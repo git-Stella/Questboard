@@ -15,7 +15,16 @@ export default class Router extends HTMLElement {
             },
             "test": {
                 view: "<h1>Test</h1>",
-                name: "Delayed"
+                name: "Test"
+            },
+            "login": {
+                view: "<login-view></login-view>",
+                name: "Login"
+            },
+            "register": {
+                view: "<register-view></register-view>",
+                name: "Register",
+                hidden: true
             },
         };
     }
