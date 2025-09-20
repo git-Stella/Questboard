@@ -5,7 +5,7 @@ export default class LoginView extends HTMLElement {
                                 <questboard-title title="Logga in"></questboard-title>
                              </header>
                              <main class="main">
-                                <form action="/login.php">
+                                <form action="/test">
                                     <label for="uname">Username:</label>
                                     <input type="text" id="uname" name="uname"><br><br>
                                     <label for="pword">Password:</label>
